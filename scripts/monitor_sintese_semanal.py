@@ -133,16 +133,17 @@ def send_email(
     if not smtp_user or not smtp_pass or not to:
         print("[WARN] Email credentials not configured, skipping alert.")
         return
+    recipients = [addr.strip() for addr in to.split(",") if addr.strip()]
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"] = smtp_user
-    msg["To"] = to
+    msg["To"] = ", ".join(recipients)
     msg.attach(MIMEText(html_body, "html", "utf-8"))
     with smtplib.SMTP(smtp_server, smtp_port, timeout=30) as server:
         server.starttls()
         server.login(smtp_user, smtp_pass)
-        server.sendmail(smtp_user, [to], msg.as_string())
-    print("[INFO] Email alert sent.")
+        server.sendmail(smtp_user, recipients, msg.as_string())
+    print(f"[INFO] Email alert sent to {len(recipients)} recipient(s).")
 
 
 def main() -> None:
