@@ -1,5 +1,5 @@
 {
-  "hash": "fe2214d9a9f2e3b6ad6f660156a0fc8a1697e3a1c926c4cabf8b2430becc5afa",
+  "hash": "6337eda45f5394ace670993c42beedadd33daeb63f276b3228e4c1768f35cb2d",
   "urls": [
     "http://www.anp.gov.br/arquivos/precos/sintese-semanal/sintese-semanal-precos_2019-Ed16.pdf",
     "http://www.anp.gov.br/arquivos/precos/sintese-semanal/sintese-semanal-precos_2019-Ed26.pdf",
@@ -368,11 +368,14 @@
     "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-13.pdf",
     "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-14.pdf",
     "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-17.pdf",
+    "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-18.pdf",
     "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sinteseprecos15.pdf",
     "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sinteseprecos16.pdf",
     "https://www.gov.br/anp/pt-br/assuntos/tecnologia-meio-ambiente/arquivos/relatorio-resolucao-cnpe05-2022.pdf"
   ],
-  "last_checked": "2026-04-29T17:12:00.865208+00:00",
-  "last_updated": "2026-04-28T17:58:48.006727+00:00",
-  "new_links": []
+  "last_checked": "2026-05-05T17:13:01.960011+00:00",
+  "last_updated": "2026-05-05T17:13:01.960011+00:00",
+  "new_links": [
+    "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/arq-sintese-semanal/2026/sintese-precos-18.pdf"
+  ]
 }
